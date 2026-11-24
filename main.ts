@@ -3,6 +3,9 @@
 // Writes the entry to /output/entry.txt and verifies it byte-for-byte.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
+// Entry: the fridge light as a small sunrise staged for one person at 3 a.m. —
+// a grounded, familiar moment (a midnight kitchen) with the surprise landing
+// late, in "the kitchen felt chosen": the room, not the person, is honoured.
 const ENTRY =
   "At 3 a.m. the fridge light came on like a small sunrise staged only for me, and the kitchen felt chosen.";
 const OUTPUT_PATH = "/output/entry.txt";
